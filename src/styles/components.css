@@ -548,7 +548,10 @@
     grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   }
 
+  /* Center the filters and the circular buttons on mobile. */
+  .controls__filters,
   .controls__actions {
     width: 100%;
+    justify-content: center;
   }
 }
