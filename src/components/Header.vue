@@ -1,6 +1,22 @@
-<!-- VIEW — top header: brand + live clock. -->
+<!--
+  VIEW — top header.
+  Wide screens: brand (left) · nav (center) · clock (right).
+  Narrow screens: everything stacked and centered — brand on top, clock in the
+  middle, and a menu button that toggles the nav links below.
+-->
 <script setup>
+import { ref } from "vue";
 import Clock from "./Clock.vue";
+
+const menuOpen = ref(false);
+
+function toggleMenu() {
+  menuOpen.value = !menuOpen.value;
+}
+
+function closeMenu() {
+  menuOpen.value = false;
+}
 </script>
 
 <template>
@@ -9,6 +25,28 @@ import Clock from "./Clock.vue";
       <span class="header__logo">EN</span>
       <h1 class="header__title">English<span>App</span></h1>
     </div>
+
     <Clock />
+
+    <button
+      type="button"
+      class="nav-toggle"
+      :aria-expanded="menuOpen"
+      aria-controls="main-nav"
+      @click="toggleMenu"
+    >
+      <span class="nav-toggle__icon" aria-hidden="true">☰</span>
+      Menú
+    </button>
+
+    <nav id="main-nav" class="nav" :class="{ 'nav--open': menuOpen }">
+      <RouterLink to="/" class="nav__link" @click="closeMenu">Inicio</RouterLink>
+      <RouterLink to="/verbs" class="nav__link" @click="closeMenu">
+        Verbos
+      </RouterLink>
+      <RouterLink to="/calendar" class="nav__link" @click="closeMenu">
+        Calendario
+      </RouterLink>
+    </nav>
   </header>
 </template>

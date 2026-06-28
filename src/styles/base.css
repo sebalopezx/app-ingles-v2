@@ -9,6 +9,9 @@
 
 html {
   -webkit-text-size-adjust: 100%;
+  /* Always reserve space for the scrollbar so the layout never shifts
+     left/right when navigating between short and tall pages. */
+  scrollbar-gutter: stable;
 }
 
 body {

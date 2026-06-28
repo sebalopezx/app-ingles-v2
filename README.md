@@ -13,10 +13,16 @@ primer proyecto, reconstruida con código moderno y mejor estructura.
 
 ## Tecnologías
 
-- **Vue 3** (`<script setup>`) + **Vite 6**
+- **Vue 3** (`<script setup>`) + **Vite 6** + **Vue Router**
 - **CSS** con variables en `:root` (todos los colores en un solo lugar)
 - **PWA** (instalable / offline) con `vite-plugin-pwa`
 - Datos en un único `src/data/verbs.json` · progreso en `localStorage`
+
+## Páginas
+
+- **Inicio** — qué es la app y cómo usarla
+- **Verbos** — el listado completo (buscar, filtrar, marcar, mezclar)
+- **Calendario** — próximamente
 
 ## Estructura (MVC)
 
@@ -25,7 +31,9 @@ src/
 ├── data/          JSON con los 272 verbos (la "base de datos")
 ├── models/        lógica de datos y progreso (Model)
 ├── composables/   estado y reloj (Controller)
-├── components/    vistas .vue (View)
+├── components/    componentes .vue reutilizables (View)
+├── views/         páginas: Home / Verbs / Calendar (View)
+├── router/        rutas de Vue Router
 └── styles/        theme.css (colores) + estilos
 ```
 

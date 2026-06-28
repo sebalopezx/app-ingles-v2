@@ -1,10 +1,11 @@
 /* ---------- Header ---------- */
+/* Mobile-first: stacked and centered (brand → clock → menu button → nav). */
 .header {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  gap: var(--space-4);
-  flex-wrap: wrap;
+  text-align: center;
+  gap: var(--space-3);
   padding: var(--space-4) var(--space-5);
   background: linear-gradient(
     180deg,
@@ -13,6 +14,20 @@
   );
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
+}
+
+.header__brand {
+  order: 0;
+}
+.header .clock {
+  order: 1;
+  text-align: center;
+}
+.nav-toggle {
+  order: 2;
+}
+.nav {
+  order: 3;
 }
 
 .header__brand {
@@ -43,6 +58,132 @@
 .header__title span {
   color: var(--color-accent);
   text-shadow: var(--glow-accent);
+}
+
+/* ---------- Nav menu ---------- */
+/* Menu toggle button (visible only on narrow screens) */
+.nav-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 8px 20px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--color-border-strong);
+  color: var(--color-text);
+  font-weight: 500;
+  transition: color var(--dur), border-color var(--dur), box-shadow var(--dur);
+}
+
+.nav-toggle:hover {
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+  box-shadow: var(--glow-accent);
+}
+
+.nav-toggle__icon {
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+/* Nav: collapsible dropdown on mobile, smooth open/close */
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  width: 100%;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height var(--dur) var(--ease), opacity var(--dur),
+    margin-top var(--dur);
+}
+
+.nav--open {
+  max-height: 260px;
+  opacity: 1;
+  margin-top: var(--space-1);
+}
+
+.nav__link {
+  padding: 8px 18px;
+  border-radius: var(--radius-pill);
+  border: 1px solid transparent;
+  color: var(--color-text-muted);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color var(--dur), border-color var(--dur), box-shadow var(--dur),
+    background var(--dur);
+}
+
+.nav__link:hover {
+  color: var(--color-text);
+  border-color: var(--color-border-strong);
+}
+
+.nav__link.router-link-exact-active {
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+  background: var(--fill-accent);
+  box-shadow: var(--glow-accent);
+}
+
+/* Wide screens: inline row — brand · nav (center) · clock · no toggle */
+@media (min-width: 820px) {
+  .header {
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    gap: var(--space-4);
+  }
+
+  .header__brand {
+    order: 0;
+  }
+  .nav {
+    order: 1;
+  }
+  .header .clock {
+    order: 2;
+    text-align: right;
+  }
+
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav {
+    flex-direction: row;
+    flex: 1 1 auto;
+    justify-content: center;
+    width: auto;
+    max-height: none;
+    opacity: 1;
+    overflow: visible;
+    margin-top: 0;
+  }
+}
+
+/* ---------- Placeholder (empty views) ---------- */
+.placeholder {
+  text-align: center;
+  padding: var(--space-7) var(--space-5);
+  background: var(--color-surface);
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius);
+}
+
+.placeholder__icon {
+  font-size: 2.5rem;
+}
+
+.placeholder__title {
+  font-size: 1.5rem;
+  margin: var(--space-3) 0 var(--space-2);
+}
+
+.placeholder__text {
+  color: var(--color-text-muted);
 }
 
 /* ---------- Intro ---------- */
