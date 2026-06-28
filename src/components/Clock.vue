@@ -9,7 +9,7 @@ const clock = useClock();
 </script>
 
 <template>
-  <div class="clock" aria-label="Current date and time in English">
+  <div class="clock" aria-label="Fecha y hora actual en inglés">
     <div class="clock__time">{{ clock.time }}</div>
     <div class="clock__date">
       {{ clock.weekday }}, {{ clock.day }}<sup>{{ clock.daySuffix }}</sup>

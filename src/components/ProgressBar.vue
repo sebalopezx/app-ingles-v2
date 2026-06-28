@@ -17,18 +17,18 @@ const percent = computed(() =>
 <template>
   <div class="progress">
     <div class="progress__head">
-      <span class="progress__label">Your progress</span>
+      <span class="progress__label">Tu progreso</span>
       <span class="progress__count">
-        {{ learnedCount }} / {{ total }} learned · {{ percent }}%
+        {{ learnedCount }} / {{ total }} aprendidos · {{ percent }}%
       </span>
       <button
         v-if="learnedCount > 0"
         type="button"
         class="progress__reset"
-        title="Reset learned verbs"
+        title="Reiniciar verbos aprendidos"
         @click="$emit('reset')"
       >
-        Reset
+        Reiniciar
       </button>
     </div>
     <div

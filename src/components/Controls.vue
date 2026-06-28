@@ -12,9 +12,9 @@ defineProps({
 defineEmits(["shuffle", "resetOrder", "toggleRevealAll"]);
 
 const FILTERS = [
-  { value: VERB_TYPE.ALL, label: "All" },
-  { value: VERB_TYPE.REGULAR, label: "Regular" },
-  { value: VERB_TYPE.IRREGULAR, label: "Irregular" },
+  { value: VERB_TYPE.ALL, label: "Todos" },
+  { value: VERB_TYPE.REGULAR, label: "Regulares" },
+  { value: VERB_TYPE.IRREGULAR, label: "Irregulares" },
 ];
 </script>
 
@@ -26,12 +26,12 @@ const FILTERS = [
         v-model="query"
         type="search"
         class="controls__input"
-        placeholder="Search in English or Spanish…"
-        aria-label="Search verbs"
+        placeholder="Busca en inglés o español…"
+        aria-label="Buscar verbos"
       />
     </div>
 
-    <div class="controls__filters" role="group" aria-label="Filter by type">
+    <div class="controls__filters" role="group" aria-label="Filtrar por tipo">
       <button
         v-for="filter in FILTERS"
         :key="filter.value"
@@ -47,10 +47,10 @@ const FILTERS = [
 
     <div class="controls__actions">
       <button type="button" class="btn" @click="$emit('shuffle')">
-        ⇄ Shuffle
+        ⇄ Mezclar
       </button>
       <button type="button" class="btn" @click="$emit('resetOrder')">
-        ↺ Reset order
+        ↺ Orden original
       </button>
       <button
         type="button"
@@ -59,7 +59,7 @@ const FILTERS = [
         :aria-pressed="revealAll"
         @click="$emit('toggleRevealAll')"
       >
-        {{ revealAll ? "🙈 Hide all" : "👁 Reveal all" }}
+        {{ revealAll ? "🙈 Ocultar todo" : "👁 Mostrar todo" }}
       </button>
     </div>
   </div>

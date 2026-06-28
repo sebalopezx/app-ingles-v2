@@ -44,8 +44,8 @@ function onCheck() {
       type="button"
       class="card__check"
       :aria-pressed="isLearned"
-      :aria-label="isLearned ? 'Mark as not learned' : 'Mark as learned'"
-      :title="isLearned ? 'Learned' : 'Mark as learned'"
+      :aria-label="isLearned ? 'Marcar como no aprendido' : 'Marcar como aprendido'"
+      :title="isLearned ? 'Aprendido' : 'Marcar como aprendido'"
       @click.stop="onCheck"
     >
       ✓
@@ -65,6 +65,6 @@ function onCheck() {
       </p>
     </div>
 
-    <span class="card__hint">hover / tap</span>
+    <span class="card__hint">pasa o toca</span>
   </article>
 </template>

@@ -11,9 +11,9 @@ export default defineConfig({
       registerType: "autoUpdate",
       includeAssets: ["icon.svg"],
       manifest: {
-        name: "English App — Past Simple Verbs",
+        name: "English App — Verbos en pasado simple",
         short_name: "English App",
-        description: "Learn and memorize English past simple verbs fast.",
+        description: "Aprende y memoriza rápido los verbos en pasado del inglés.",
         theme_color: "#0a0e17",
         background_color: "#0a0e17",
         display: "standalone",

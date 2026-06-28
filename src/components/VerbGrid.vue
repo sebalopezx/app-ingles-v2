@@ -18,7 +18,7 @@ function isLearned(verb) {
 
 <template>
   <p v-if="verbs.length === 0" class="grid-empty">
-    No verbs match your search. Try another word.
+    Ningún verbo coincide con tu búsqueda. Prueba otra palabra.
   </p>
 
   <div v-else class="grid">
