@@ -21,8 +21,9 @@
   --color-text-dim: #5f6e8c;
 
   /* Brand / accents (neon) */
-  --color-accent: #2ee6d6; /* aqua — nod to v1 */
+  --color-accent: #2ee6d6; /* aqua — the English side ("Glish") */
   --color-accent-2: #b66bff; /* violet */
+  --color-spanish: #ff2e51; /* red neon — the Spanish side ("Span") */
   --color-regular: #2ee6d6; /* regular verbs */
   --color-irregular: #b66bff; /* irregular verbs */
   --color-success: #46e8a0; /* learned */
@@ -36,6 +37,7 @@
 
   /* Glows */
   --glow-accent: 0 0 14px rgba(46, 230, 214, 0.45);
+  --glow-spanish: 0 0 12px rgba(255, 46, 81, 0.5);
   --glow-regular: 0 0 14px rgba(46, 230, 214, 0.35);
   --glow-irregular: 0 0 14px rgba(182, 107, 255, 0.4);
   --glow-success: 0 0 14px rgba(70, 232, 160, 0.5);

@@ -289,49 +289,70 @@
     margin-top var(--dur);
 }
 
-.card:hover .card__back,
+/* Reveal on click only (no hover reveal). */
 .card.is-revealed .card__back {
-  max-height: 90px;
+  max-height: 160px;
   opacity: 1;
   margin-top: var(--space-3);
 }
 
-.card__translation {
-  font-size: 1rem;
-  color: var(--color-text);
+/* One labeled row: icon on the left, word on the right. */
+.card__row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 6px;
 }
 
-.card__forms {
-  margin-top: 2px;
+.card__row:first-child {
+  margin-top: 0;
+}
+
+.card__row-icon {
+  flex: none;
+  font-size: 1.05rem;
+  color: var(--color-text); /* icons inside cards: white */
+}
+
+.card__row span {
+  font-size: 0.95rem;
+}
+
+.card__row--translation span {
+  color: var(--color-spanish); /* Spanish word: red neon */
+  text-shadow: var(--glow-spanish);
+}
+
+.card__row--past span {
   font-family: var(--font-mono);
-  font-size: 0.85rem;
-  color: var(--color-text-muted);
+  font-size: 0.88rem;
 }
 
-.card--regular .card__forms {
+.card--regular .card__row--past span {
   color: var(--color-regular);
 }
 
-.card--irregular .card__forms {
+.card--irregular .card__row--past span {
   color: var(--color-irregular);
 }
 
-.card__sep {
-  margin: 0 6px;
-  opacity: 0.6;
-}
-
+/* Hand hint: centered at the bottom, fades out once revealed. */
 .card__hint {
   position: absolute;
-  right: 10px;
-  bottom: 8px;
-  font-size: 0.62rem;
-  color: var(--color-text-dim);
-  opacity: 1;
-  transition: opacity var(--dur);
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: var(--color-text-muted); /* soft gray/white, no movement */
+  transition: color var(--dur), opacity var(--dur);
 }
 
-.card:hover .card__hint,
+.card:hover .card__hint {
+  color: var(--color-text); /* white on hover */
+}
+
 .card.is-revealed .card__hint {
   opacity: 0;
 }
@@ -383,9 +404,5 @@
 
   .controls__actions {
     width: 100%;
-  }
-
-  .card__hint {
-    display: none;
   }
 }

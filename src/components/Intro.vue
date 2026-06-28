@@ -1,4 +1,11 @@
 <!-- VIEW — main page intro: what the app is and how to use it. -->
+<script setup>
+import HandClickIcon from "./icons/HandClickIcon.vue";
+import TranslationIcon from "./icons/TranslationIcon.vue";
+import SimplePastIcon from "./icons/SimplePastIcon.vue";
+import ParticipleIcon from "./icons/ParticipleIcon.vue";
+</script>
+
 <template>
   <section class="intro">
     <h2 class="intro__title">Verbos en pasado simple</h2>
@@ -9,10 +16,11 @@
 
     <ul class="intro__steps">
       <li>
-        <span class="intro__icon intro__icon--reveal">↧</span>
+        <span class="intro__icon intro__icon--reveal"><HandClickIcon /></span>
         <span>
-          <strong>Revelar</strong> — pasa el cursor por una tarjeta (o tócala en
-          el móvil) para ver la traducción, el pasado simple y el participio.
+          <strong>Haz clic en una tarjeta</strong> — donde veas este icono,
+          puedes hacer clic en la tarjeta (en el móvil o el PC) para mostrar la
+          traducción y los tiempos verbales.
         </span>
       </li>
       <li>
@@ -27,6 +35,34 @@
         <span>
           <strong>Mezclar y ocultar</strong> — cambia el orden y revela las
           tarjetas una por una para ponerte a prueba.
+        </span>
+      </li>
+    </ul>
+
+    <h3 class="intro__subtitle">¿Qué muestra cada icono?</h3>
+    <ul class="intro__legend">
+      <li>
+        <span class="intro__legend-icon intro__legend-icon--translation">
+          <TranslationIcon />
+        </span>
+        <span><strong>Traducción</strong> — la palabra en español.</span>
+      </li>
+      <li>
+        <span class="intro__legend-icon">
+          <SimplePastIcon />
+        </span>
+        <span>
+          <strong>Pasado simple</strong> — la forma del pasado (ej. <em>worked</em>,
+          <em>went</em>).
+        </span>
+      </li>
+      <li>
+        <span class="intro__legend-icon">
+          <ParticipleIcon />
+        </span>
+        <span>
+          <strong>Pasado participio</strong> — se usa en los tiempos perfectos
+          (ej. <em>worked</em>, <em>gone</em>).
         </span>
       </li>
     </ul>

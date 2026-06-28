@@ -1,11 +1,17 @@
 <!--
   VIEW — a single verb card.
-  - Hover (desktop) or tap (mobile) reveals the translation and past forms.
+  - Click the card (mobile or desktop) to reveal the translation and past forms.
+  - The hand icon at the bottom hints that the card is clickable; it fades out
+    once the card is revealed.
   - The check button marks the verb as learned (independent of reveal).
 -->
 <script setup>
 import { ref, computed } from "vue";
 import { getVerbId } from "../models/verbsService.js";
+import HandClickIcon from "./icons/HandClickIcon.vue";
+import TranslationIcon from "./icons/TranslationIcon.vue";
+import SimplePastIcon from "./icons/SimplePastIcon.vue";
+import ParticipleIcon from "./icons/ParticipleIcon.vue";
 
 const props = defineProps({
   verb: { type: Object, required: true },
@@ -18,9 +24,6 @@ const emit = defineEmits(["toggleLearned"]);
 const revealed = ref(false);
 const verbId = computed(() => getVerbId(props.verb));
 const isRevealed = computed(() => revealed.value || props.revealAll);
-const samePastForms = computed(
-  () => props.verb.simplePast === props.verb.pastParticiple,
-);
 
 function toggleReveal() {
   revealed.value = !revealed.value;
@@ -55,16 +58,22 @@ function onCheck() {
     <h3 class="card__word">{{ verb.infinitive }}</h3>
 
     <div class="card__back">
-      <p class="card__translation">{{ verb.translation }}</p>
-      <p class="card__forms">
+      <p class="card__row card__row--translation">
+        <TranslationIcon class="card__row-icon" />
+        <span>{{ verb.translation }}</span>
+      </p>
+      <p class="card__row card__row--past">
+        <SimplePastIcon class="card__row-icon" />
         <span>{{ verb.simplePast }}</span>
-        <template v-if="!samePastForms">
-          <span class="card__sep">·</span>
-          <span>{{ verb.pastParticiple }}</span>
-        </template>
+      </p>
+      <p class="card__row card__row--past">
+        <ParticipleIcon class="card__row-icon" />
+        <span>{{ verb.pastParticiple }}</span>
       </p>
     </div>
 
-    <span class="card__hint">pasa o toca</span>
+    <span class="card__hint" aria-hidden="true">
+      <HandClickIcon />
+    </span>
   </article>
 </template>

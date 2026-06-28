@@ -22,8 +22,10 @@ function closeMenu() {
 <template>
   <header class="header">
     <div class="header__brand">
-      <span class="header__logo">EN</span>
-      <h1 class="header__title">English<span>App</span></h1>
+      <span class="header__logo">SG</span>
+      <h1 class="header__title">
+        <span class="header__title-es">Span</span><span class="header__title-en">Glish</span>
+      </h1>
     </div>
 
     <Clock />

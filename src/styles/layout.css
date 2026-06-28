@@ -55,7 +55,12 @@
   letter-spacing: 0.5px;
 }
 
-.header__title span {
+.header__title-es {
+  color: var(--color-spanish);
+  text-shadow: var(--glow-spanish);
+}
+
+.header__title-en {
   color: var(--color-accent);
   text-shadow: var(--glow-accent);
 }
@@ -246,6 +251,53 @@
 .intro__icon--shuffle {
   color: var(--color-irregular);
   background: var(--fill-irregular);
+}
+
+/* Icon legend */
+.intro__subtitle {
+  margin-top: var(--space-5);
+  margin-bottom: var(--space-3);
+  font-size: 1.05rem;
+  color: var(--color-text);
+}
+
+.intro__legend {
+  list-style: none;
+  display: grid;
+  gap: var(--space-3);
+}
+
+.intro__legend li {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  color: var(--color-text-muted);
+}
+
+.intro__legend strong {
+  color: var(--color-text);
+}
+
+.intro__legend em {
+  color: var(--color-text);
+  font-style: italic;
+}
+
+.intro__legend-icon {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: var(--radius-sm);
+  font-size: 1.2rem;
+  color: var(--color-text-muted);
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+}
+
+.intro__legend-icon--translation {
+  color: var(--color-spanish);
 }
 
 /* ---------- Footer ---------- */
