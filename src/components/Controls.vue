@@ -1,6 +1,10 @@
 <!-- VIEW — search box, type filter, shuffle and reveal-all controls. -->
 <script setup>
 import { VERB_TYPE } from "../models/verbsService.js";
+import ShuffleIcon from "./icons/ShuffleIcon.vue";
+import SortIcon from "./icons/SortIcon.vue";
+import EyeIcon from "./icons/EyeIcon.vue";
+import EyeOffIcon from "./icons/EyeOffIcon.vue";
 
 const query = defineModel("query", { type: String, default: "" });
 const type = defineModel("type", { type: String, default: VERB_TYPE.ALL });
@@ -9,7 +13,7 @@ defineProps({
   revealAll: { type: Boolean, default: false },
 });
 
-defineEmits(["shuffle", "resetOrder", "toggleRevealAll"]);
+defineEmits(["shuffle", "resetOrder", "toggleRevealAll", "openActions"]);
 
 const FILTERS = [
   { value: VERB_TYPE.ALL, label: "Todos" },
@@ -46,20 +50,44 @@ const FILTERS = [
     </div>
 
     <div class="controls__actions">
-      <button type="button" class="btn" @click="$emit('shuffle')">
-        ⇄ Mezclar
-      </button>
-      <button type="button" class="btn" @click="$emit('resetOrder')">
-        ↺ Orden original
+      <button
+        type="button"
+        class="btn-circle"
+        title="Mezclar"
+        aria-label="Mezclar"
+        @click="$emit('shuffle')"
+      >
+        <ShuffleIcon />
       </button>
       <button
         type="button"
-        class="btn"
-        :class="{ 'btn--on': revealAll }"
+        class="btn-circle"
+        title="Orden original"
+        aria-label="Orden original"
+        @click="$emit('resetOrder')"
+      >
+        <SortIcon />
+      </button>
+      <button
+        type="button"
+        class="btn-circle"
+        :class="{ 'btn-circle--on': revealAll }"
+        :title="revealAll ? 'Ocultar todo' : 'Mostrar todo'"
+        :aria-label="revealAll ? 'Ocultar todo' : 'Mostrar todo'"
         :aria-pressed="revealAll"
         @click="$emit('toggleRevealAll')"
       >
-        {{ revealAll ? "🙈 Ocultar todo" : "👁 Mostrar todo" }}
+        <EyeOffIcon v-if="revealAll" />
+        <EyeIcon v-else />
+      </button>
+      <button
+        type="button"
+        class="btn-circle btn-circle--danger"
+        aria-label="Opciones de reinicio"
+        title="Opciones"
+        @click="$emit('openActions')"
+      >
+        ✕
       </button>
     </div>
   </div>

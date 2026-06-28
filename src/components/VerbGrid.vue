@@ -7,6 +7,7 @@ const props = defineProps({
   verbs: { type: Array, required: true },
   learned: { type: Set, required: true },
   revealAll: { type: Boolean, default: false },
+  collapseSignal: { type: Number, default: 0 },
 });
 
 defineEmits(["toggleLearned"]);
@@ -28,6 +29,7 @@ function isLearned(verb) {
       :verb="verb"
       :is-learned="isLearned(verb)"
       :reveal-all="revealAll"
+      :collapse-signal="collapseSignal"
       @toggle-learned="$emit('toggleLearned', $event)"
     />
   </div>

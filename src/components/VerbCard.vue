@@ -6,7 +6,7 @@
   - The check button marks the verb as learned (independent of reveal).
 -->
 <script setup>
-import { ref, computed } from "vue";
+import { ref, computed, watch } from "vue";
 import { getVerbId } from "../models/verbsService.js";
 import HandClickIcon from "./icons/HandClickIcon.vue";
 import TranslationIcon from "./icons/TranslationIcon.vue";
@@ -17,11 +17,20 @@ const props = defineProps({
   verb: { type: Object, required: true },
   isLearned: { type: Boolean, default: false },
   revealAll: { type: Boolean, default: false },
+  collapseSignal: { type: Number, default: 0 },
 });
 
 const emit = defineEmits(["toggleLearned"]);
 
 const revealed = ref(false);
+
+// When the parent bumps the collapse signal, close this card.
+watch(
+  () => props.collapseSignal,
+  () => {
+    revealed.value = false;
+  },
+);
 const verbId = computed(() => getVerbId(props.verb));
 const isRevealed = computed(() => revealed.value || props.revealAll);
 
