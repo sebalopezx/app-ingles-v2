@@ -598,6 +598,208 @@
   color: var(--color-success);
 }
 
+/* ---------- Match game (Calendar) ---------- */
+.match {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--space-5);
+}
+
+.match__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-4);
+}
+
+.match__title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.match__head-right {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.match__reset {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  padding: 4px 12px;
+  transition: color var(--dur), border-color var(--dur);
+}
+
+.match__reset:hover {
+  color: var(--color-danger);
+  border-color: var(--color-danger);
+}
+
+.match__counter {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.match__counter-current {
+  color: var(--color-text);
+  transition: color var(--dur);
+}
+
+.match__counter-current.is-done {
+  color: var(--color-success);
+  text-shadow: var(--glow-success);
+}
+
+.match__counter-sep {
+  color: var(--color-text-dim);
+  margin: 0 1px;
+}
+
+.match__counter-total {
+  color: var(--color-tooltip);
+}
+
+.match__success {
+  background: var(--fill-success);
+  border: 1px solid var(--color-success);
+  border-radius: var(--radius-sm);
+  padding: var(--space-3) var(--space-4);
+  color: var(--color-success);
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: var(--space-4);
+  box-shadow: var(--glow-success);
+}
+
+.match__pool {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  padding: var(--space-3);
+  background: var(--color-bg-soft);
+  border: 1px dashed var(--color-border-strong);
+  border-radius: var(--radius-sm);
+  min-height: 54px;
+  margin-bottom: var(--space-4);
+}
+
+.match__pool--empty {
+  border-style: solid;
+  border-color: var(--color-success);
+}
+
+.match__pool-hint {
+  color: var(--color-text-dim);
+  font-size: 0.82rem;
+  align-self: center;
+}
+
+.match__chip {
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  background: var(--fill-accent);
+  border: 1px solid var(--color-accent);
+  color: var(--color-accent);
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: grab;
+  user-select: none;
+  transition: box-shadow var(--dur), transform var(--dur);
+}
+
+.match__chip:hover {
+  box-shadow: var(--glow-accent);
+  transform: translateY(-2px);
+}
+
+.match__chip:active {
+  cursor: grabbing;
+}
+
+.match__targets {
+  list-style: none;
+  display: grid;
+  gap: var(--space-2);
+}
+
+.match__row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.match__slot {
+  flex: none;
+  width: 150px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed var(--color-border-strong);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface-2);
+  transition: border-color var(--dur), box-shadow var(--dur), background var(--dur);
+}
+
+.match__slot.is-over {
+  border-style: solid;
+  border-color: var(--color-accent);
+  background: var(--fill-accent);
+  box-shadow: var(--glow-accent);
+}
+
+.match__slot.is-correct {
+  border-style: solid;
+  border-color: var(--color-success);
+  background: var(--fill-success);
+  box-shadow: var(--glow-success);
+}
+
+.match__slot.is-wrong {
+  border-style: solid;
+  border-color: var(--color-danger);
+  animation: shake 0.45s var(--ease);
+}
+
+.match__matched {
+  font-family: var(--font-mono);
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--color-success);
+}
+
+.match__placeholder {
+  color: var(--color-text-dim);
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+}
+
+.match__badge {
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  background: var(--fill-spanish);
+  border: 1px solid var(--color-spanish);
+  color: var(--color-spanish);
+  text-shadow: var(--glow-spanish);
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  font-weight: 600;
+  user-select: none;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%       { transform: translateX(-7px); }
+  40%       { transform: translateX(7px); }
+  60%       { transform: translateX(-4px); }
+  80%       { transform: translateX(4px); }
+}
+
 /* ---------- Responsive ---------- */
 @media (max-width: 560px) {
   .grid {
