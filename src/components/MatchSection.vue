@@ -1,21 +1,29 @@
 <!-- COMPONENT — drag-and-drop word matching game for a set of pairs. -->
 <script setup>
-import { ref, reactive, computed, onMounted } from "vue";
+import { ref, reactive, computed, onMounted, watch } from "vue";
+import { loadMatches, saveMatches, clearMatches } from "../models/matchStore.js";
 
 const props = defineProps({
   title: { type: String, required: true },
   items: { type: Array, required: true }, // [{ en, es }]
+  storageKey: { type: String, required: true },
 });
 
 const poolOrder = ref([]);
+const matches = reactive(loadMatches(props.storageKey)); // { es: en } confirmed correct pairs
+const dragging = ref(null);
+const wrongSlot = ref(null);
+const overSlot = ref(null);
+
 onMounted(() => {
-  poolOrder.value = [...props.items].sort(() => Math.random() - 0.5);
+  // Only include unmatched items in the pool
+  const matched = new Set(Object.values(matches));
+  poolOrder.value = [...props.items]
+    .filter((item) => !matched.has(item.en))
+    .sort(() => Math.random() - 0.5);
 });
 
-const dragging = ref(null);
-const matches = reactive({});  // { es: en } confirmed correct pairs
-const wrongSlot = ref(null);   // es key flashing on wrong drop
-const overSlot = ref(null);    // es key highlighted on dragover
+watch(matches, (val) => saveMatches(props.storageKey, { ...val }), { deep: true });
 
 const pool = computed(() =>
   poolOrder.value.filter((item) => !Object.values(matches).includes(item.en))
@@ -51,6 +59,7 @@ function onDrop(target) {
 
 function reset() {
   Object.keys(matches).forEach((k) => delete matches[k]);
+  clearMatches(props.storageKey);
   poolOrder.value = [...props.items].sort(() => Math.random() - 0.5);
 }
 </script>

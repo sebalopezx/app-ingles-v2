@@ -1,6 +1,7 @@
-<!-- VIEW (page) — Calendar: word-matching game for days and months. -->
+<!-- VIEW (page) — Calendar: word-matching game for days and months + number game. -->
 <script setup>
 import MatchSection from "../components/MatchSection.vue";
+import NumberGame from "../components/NumberGame.vue";
 
 const DAYS = [
   { en: "Monday", es: "Lunes" },
@@ -30,7 +31,8 @@ const MONTHS = [
 
 <template>
   <div class="stack">
-    <MatchSection title="Días de la semana" :items="DAYS" />
-    <MatchSection title="Meses del año" :items="MONTHS" />
+    <NumberGame />
+    <MatchSection title="Días de la semana" :items="DAYS" storage-key="app-ingles-v2:match-days" />
+    <MatchSection title="Meses del año" :items="MONTHS" storage-key="app-ingles-v2:match-months" />
   </div>
 </template>

@@ -598,6 +598,216 @@
   color: var(--color-success);
 }
 
+/* ---------- Number game (Calendar) ---------- */
+.numgame {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.numgame__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+.numgame__title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.numgame__ranges {
+  display: flex;
+  gap: var(--space-2);
+}
+
+/* Active difficulty pill uses accent color */
+.numgame__ranges .pill--active {
+  color: var(--color-bg);
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  box-shadow: var(--glow-accent);
+}
+
+.numgame__card {
+  background: var(--color-bg-soft);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+
+.numgame__card-body {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  padding: var(--space-5) var(--space-4);
+  gap: var(--space-4);
+}
+
+.numgame__card-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.numgame__number {
+  font-family: var(--font-mono);
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  text-shadow: var(--glow-accent);
+  letter-spacing: 4px;
+  line-height: 1;
+}
+
+.numgame__hint {
+  font-size: 0.82rem;
+  color: var(--color-text-dim);
+}
+
+.numgame__card-right {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  align-items: flex-end;
+}
+
+.numgame__stat {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.numgame__stat-icon {
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.numgame__stat-value {
+  font-family: var(--font-mono);
+  font-size: 1.4rem;
+  font-weight: 700;
+  min-width: 2ch;
+  text-align: right;
+}
+
+.numgame__stat-value--correct {
+  color: var(--color-success);
+  text-shadow: var(--glow-success);
+}
+
+.numgame__stat-value--wrong {
+  color: var(--color-danger);
+}
+
+.numgame__card-footer {
+  border-top: 1px solid var(--color-border);
+  padding: var(--space-3) var(--space-4);
+  display: flex;
+  justify-content: center;
+}
+
+.numgame__reset {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  padding: 4px 16px;
+  transition: color var(--dur), border-color var(--dur);
+}
+
+.numgame__reset:hover {
+  color: var(--color-danger);
+  border-color: var(--color-danger);
+}
+
+.numgame__row {
+  display: flex;
+  gap: var(--space-3);
+}
+
+.numgame__input {
+  flex: 1;
+  padding: 10px 14px;
+  color: var(--color-text);
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  outline: none;
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  transition: border-color var(--dur), box-shadow var(--dur);
+}
+
+.numgame__input::placeholder {
+  color: var(--color-text-dim);
+}
+
+.numgame__input:focus {
+  border-color: var(--color-accent);
+  box-shadow: var(--glow-accent);
+}
+
+.numgame__input:disabled {
+  opacity: 0.6;
+}
+
+.numgame__btn {
+  padding: 10px 20px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-accent);
+  background: var(--fill-accent);
+  color: var(--color-accent);
+  font-weight: 600;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  transition: box-shadow var(--dur);
+}
+
+.numgame__btn:hover {
+  box-shadow: var(--glow-accent);
+}
+
+.numgame__btn--next {
+  border-color: var(--color-success);
+  background: var(--fill-success);
+  color: var(--color-success);
+}
+
+.numgame__btn--next:hover {
+  box-shadow: var(--glow-success);
+}
+
+.numgame__result {
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-sm);
+  font-size: 0.95rem;
+}
+
+.numgame__result--correct {
+  background: var(--fill-success);
+  border: 1px solid var(--color-success);
+  color: var(--color-success);
+}
+
+.numgame__result--wrong {
+  background: var(--fill-spanish);
+  border: 1px solid var(--color-danger);
+  color: var(--color-danger);
+}
+
+.numgame__result strong {
+  color: var(--color-text);
+}
+
 /* ---------- Match game (Calendar) ---------- */
 .match {
   background: var(--color-surface);
