@@ -11,8 +11,7 @@ import ColorDot from "./ColorDot.vue";
   <section class="intro">
     <h2 class="intro__title">Verbos en pasado simple</h2>
     <p class="intro__lead">
-      Explora todos los verbos y revela su traducción al instante. La idea es ir
-      rápido: mira, repite y memoriza.
+      Explora todos los verbos y revela su traducción al instante. La idea es ir rápido: <strong class="text-spanish">mira, repite y memoriza</strong>.
     </p>
 
     <ul class="intro__steps">

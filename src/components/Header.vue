@@ -7,6 +7,7 @@
 <script setup>
 import { ref } from "vue";
 import Clock from "./Clock.vue";
+import AppLogo from "./icons/AppLogo.vue";
 
 const menuOpen = ref(false);
 
@@ -22,7 +23,7 @@ function closeMenu() {
 <template>
   <header class="header">
     <div class="header__brand">
-      <span class="header__logo">SG</span>
+      <AppLogo class="header__logo" />
       <h1 class="header__title">
         <span class="header__title-es">SPAN</span><span class="header__title-en">GLISH</span>
       </h1>

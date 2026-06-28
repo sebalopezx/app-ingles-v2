@@ -206,7 +206,7 @@
 
 .intro__lead {
   color: var(--color-text-muted);
-  max-width: 60ch;
+  max-width: 100%;
   margin-bottom: var(--space-4);
 }
 
@@ -231,11 +231,11 @@
   flex: none;
   display: grid;
   place-items: center;
-  width: 28px;
-  height: 28px;
+  width: 34px;
+  height: 34px;
   border-radius: var(--radius-sm);
   font-weight: 700;
-  font-size: 0.95rem;
+  font-size: 1.2rem;
 }
 
 .intro__icon--reveal {
@@ -291,13 +291,9 @@
   height: 34px;
   border-radius: var(--radius-sm);
   font-size: 1.2rem;
-  color: var(--color-text-muted);
+  color: var(--color-text);
   background: var(--color-surface-2);
   border: 1px solid var(--color-border);
-}
-
-.intro__legend-icon--translation {
-  color: var(--color-spanish);
 }
 
 /* ---------- Footer ---------- */

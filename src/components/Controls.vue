@@ -53,7 +53,7 @@ const FILTERS = [
       <button
         type="button"
         class="btn-circle"
-        title="Mezclar"
+        data-tooltip="Mezclar"
         aria-label="Mezclar"
         @click="$emit('shuffle')"
       >
@@ -62,7 +62,7 @@ const FILTERS = [
       <button
         type="button"
         class="btn-circle"
-        title="Orden original"
+        data-tooltip="Orden original"
         aria-label="Orden original"
         @click="$emit('resetOrder')"
       >
@@ -72,7 +72,7 @@ const FILTERS = [
         type="button"
         class="btn-circle"
         :class="{ 'btn-circle--on': revealAll }"
-        :title="revealAll ? 'Ocultar todo' : 'Mostrar todo'"
+        :data-tooltip="revealAll ? 'Ocultar todo' : 'Mostrar todo'"
         :aria-label="revealAll ? 'Ocultar todo' : 'Mostrar todo'"
         :aria-pressed="revealAll"
         @click="$emit('toggleRevealAll')"
@@ -84,7 +84,7 @@ const FILTERS = [
         type="button"
         class="btn-circle btn-circle--danger"
         aria-label="Opciones de reinicio"
-        title="Opciones"
+        data-tooltip="Opciones"
         @click="$emit('openActions')"
       >
         ✕

@@ -35,6 +35,11 @@
   --fill-irregular: rgba(182, 107, 255, 0.1);
   --fill-success: rgba(70, 232, 160, 0.12);
 
+  /* Tooltip */
+  --color-tooltip: #ffeb00;
+  --color-tooltip-text: #0a0e17;
+  --glow-tooltip: 0 0 10px rgba(255, 235, 0, 0.55);
+
   /* Glows */
   --glow-accent: 0 0 14px rgba(46, 230, 214, 0.45);
   --glow-spanish: 0 0 12px rgba(255, 46, 81, 0.5);

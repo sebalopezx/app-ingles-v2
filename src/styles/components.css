@@ -164,6 +164,11 @@
   color: var(--color-text);
 }
 
+/* Active pill: keep dark text on hover (background is already light/colored). */
+.pill--active:hover {
+  color: var(--color-bg);
+}
+
 .pill--active {
   color: var(--color-bg);
   background: var(--color-text);
@@ -249,6 +254,57 @@
   color: var(--color-danger);
   border-color: var(--color-danger);
   box-shadow: 0 0 10px rgba(255, 107, 139, 0.45);
+}
+
+/* ---------- Utility ---------- */
+.text-spanish {
+  color: var(--color-spanish);
+  text-shadow: var(--glow-spanish);
+}
+
+/* ---------- Custom tooltip ---------- */
+[data-tooltip] {
+  position: relative;
+}
+
+[data-tooltip]::before {
+  content: "";
+  position: absolute;
+  bottom: calc(100% + 4px);
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid transparent;
+  border-top-color: var(--color-tooltip);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s var(--ease);
+  z-index: 40;
+}
+
+[data-tooltip]::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: calc(100% + 14px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--color-tooltip);
+  color: var(--color-tooltip-text);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  padding: 4px 10px;
+  border-radius: var(--radius-pill);
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  box-shadow: var(--glow-tooltip);
+  transition: opacity 0.15s var(--ease);
+  z-index: 40;
+}
+
+[data-tooltip]:hover::before,
+[data-tooltip]:hover::after {
+  opacity: 1;
 }
 
 /* ---------- Modal ---------- */
