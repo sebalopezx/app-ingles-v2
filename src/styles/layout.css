@@ -1,0 +1,131 @@
+/* ---------- Header ---------- */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+  padding: var(--space-4) var(--space-5);
+  background: linear-gradient(
+    180deg,
+    var(--color-surface-2),
+    var(--color-surface)
+  );
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+.header__brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.header__logo {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-sm);
+  background: var(--fill-accent);
+  border: 1px solid var(--color-border-strong);
+  color: var(--color-accent);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  box-shadow: var(--glow-accent);
+}
+
+.header__title {
+  font-size: 1.6rem;
+  letter-spacing: 0.5px;
+}
+
+.header__title span {
+  color: var(--color-accent);
+  text-shadow: var(--glow-accent);
+}
+
+/* ---------- Intro ---------- */
+.intro {
+  padding: var(--space-5);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+.intro__title {
+  font-size: 1.5rem;
+  margin-bottom: var(--space-2);
+}
+
+.intro__lead {
+  color: var(--color-text-muted);
+  max-width: 60ch;
+  margin-bottom: var(--space-4);
+}
+
+.intro__steps {
+  list-style: none;
+  display: grid;
+  gap: var(--space-3);
+}
+
+.intro__steps li {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  color: var(--color-text-muted);
+}
+
+.intro__steps strong {
+  color: var(--color-text);
+}
+
+.intro__icon {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.intro__icon--reveal {
+  color: var(--color-accent);
+  background: var(--fill-accent);
+}
+
+.intro__icon--learn {
+  color: var(--color-success);
+  background: var(--fill-success);
+}
+
+.intro__icon--shuffle {
+  color: var(--color-irregular);
+  background: var(--fill-irregular);
+}
+
+/* ---------- Footer ---------- */
+.footer {
+  text-align: center;
+  color: var(--color-text-dim);
+  font-size: 0.85rem;
+  padding: var(--space-5) 0 var(--space-6);
+}
+
+.footer strong {
+  color: var(--color-text-muted);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 560px) {
+  .header {
+    padding: var(--space-4);
+  }
+
+  .header__title {
+    font-size: 1.35rem;
+  }
+}

@@ -1,0 +1,1906 @@
+[
+  {
+    "infinitive": "Accept",
+    "simplePast": "Accepted",
+    "pastParticiple": "Accepted",
+    "translation": "Aceptar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Act",
+    "simplePast": "Acted",
+    "pastParticiple": "Acted",
+    "translation": "Actuar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Add",
+    "simplePast": "Added",
+    "pastParticiple": "Added",
+    "translation": "Añadir",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Amuse",
+    "simplePast": "Amused",
+    "pastParticiple": "Amused",
+    "translation": "Entretener",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Answer",
+    "simplePast": "Answered",
+    "pastParticiple": "Answered",
+    "translation": "Responder",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Arise",
+    "simplePast": "Arose",
+    "pastParticiple": "Arisen",
+    "translation": "Surgir",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Arrive",
+    "simplePast": "Arrived",
+    "pastParticiple": "Arrived",
+    "translation": "Llegar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Ask",
+    "simplePast": "Asked",
+    "pastParticiple": "Asked",
+    "translation": "Preguntar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Awake",
+    "simplePast": "Awoke",
+    "pastParticiple": "Awoken",
+    "translation": "Despertar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Balance",
+    "simplePast": "Balanced",
+    "pastParticiple": "Balanced",
+    "translation": "Balancear",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Bark",
+    "simplePast": "Barked",
+    "pastParticiple": "Barked",
+    "translation": "Ladrar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Be",
+    "simplePast": "Was/Were",
+    "pastParticiple": "Been",
+    "translation": "Ser",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Bear",
+    "simplePast": "Bore",
+    "pastParticiple": "Born/Borne",
+    "translation": "Soportar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Beat",
+    "simplePast": "Beat",
+    "pastParticiple": "Beaten",
+    "translation": "Golpear",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Become",
+    "simplePast": "Became",
+    "pastParticiple": "Become",
+    "translation": "Convertirse",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Begin",
+    "simplePast": "Began",
+    "pastParticiple": "Begun",
+    "translation": "Empezar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Behave",
+    "simplePast": "Behaved",
+    "pastParticiple": "Behaved",
+    "translation": "Comportarse",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Believe",
+    "simplePast": "Believed",
+    "pastParticiple": "Believed",
+    "translation": "Creer",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Belong",
+    "simplePast": "Belonged",
+    "pastParticiple": "Belonged",
+    "translation": "Pertenecer",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Bend",
+    "simplePast": "Bent",
+    "pastParticiple": "Bent",
+    "translation": "Doblar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Bet",
+    "simplePast": "Bet",
+    "pastParticiple": "Bet",
+    "translation": "Apostar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Bid",
+    "simplePast": "Bid",
+    "pastParticiple": "Bid",
+    "translation": "Pujar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Bind",
+    "simplePast": "Bound",
+    "pastParticiple": "Bound",
+    "translation": "Atar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Bite",
+    "simplePast": "Bit",
+    "pastParticiple": "Bitten",
+    "translation": "Morder",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Bleed",
+    "simplePast": "Bled",
+    "pastParticiple": "Bled",
+    "translation": "Sangrar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Blow",
+    "simplePast": "Blew",
+    "pastParticiple": "Blown",
+    "translation": "Soplar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Break",
+    "simplePast": "Broke",
+    "pastParticiple": "Broken",
+    "translation": "Romper",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Breed",
+    "simplePast": "Bred",
+    "pastParticiple": "Bred",
+    "translation": "Criar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Bring",
+    "simplePast": "Brought",
+    "pastParticiple": "Brought",
+    "translation": "Traer",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Build",
+    "simplePast": "Built",
+    "pastParticiple": "Built",
+    "translation": "Construir",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Burn",
+    "simplePast": "Burnt/Burned",
+    "pastParticiple": "Burnt/Burned",
+    "translation": "Quemar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Burst",
+    "simplePast": "Burst",
+    "pastParticiple": "Burst",
+    "translation": "Reventar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Buy",
+    "simplePast": "Bought",
+    "pastParticiple": "Bought",
+    "translation": "Comprar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Call",
+    "simplePast": "Called",
+    "pastParticiple": "Called",
+    "translation": "Llamar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Care",
+    "simplePast": "Cared",
+    "pastParticiple": "Cared",
+    "translation": "Cuidar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Cast",
+    "simplePast": "Cast",
+    "pastParticiple": "Cast",
+    "translation": "Arrojar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Catch",
+    "simplePast": "Caught",
+    "pastParticiple": "Caught",
+    "translation": "Atrapar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Change",
+    "simplePast": "Changed",
+    "pastParticiple": "Changed",
+    "translation": "Cambiar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Choose",
+    "simplePast": "Chose",
+    "pastParticiple": "Chosen",
+    "translation": "Elegir",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Clean",
+    "simplePast": "Cleaned",
+    "pastParticiple": "Cleaned",
+    "translation": "Limpiar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Climb",
+    "simplePast": "Climbed",
+    "pastParticiple": "Climbed",
+    "translation": "Escalar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Cling",
+    "simplePast": "Clung",
+    "pastParticiple": "Clung",
+    "translation": "Agarrarse",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Close",
+    "simplePast": "Closed",
+    "pastParticiple": "Closed",
+    "translation": "Cerrar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Come",
+    "simplePast": "Came",
+    "pastParticiple": "Come",
+    "translation": "Venir",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Complete",
+    "simplePast": "Completed",
+    "pastParticiple": "Completed",
+    "translation": "Completar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Consider",
+    "simplePast": "Considered",
+    "pastParticiple": "Considered",
+    "translation": "Considerar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Cook",
+    "simplePast": "Cooked",
+    "pastParticiple": "Cooked",
+    "translation": "Cocinar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Cost",
+    "simplePast": "Cost",
+    "pastParticiple": "Cost",
+    "translation": "Costar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Count",
+    "simplePast": "Counted",
+    "pastParticiple": "Counted",
+    "translation": "Contar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Creep",
+    "simplePast": "Crept",
+    "pastParticiple": "Crept",
+    "translation": "Arrastrarse",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Cry",
+    "simplePast": "Cried",
+    "pastParticiple": "Cried",
+    "translation": "Llorar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Cut",
+    "simplePast": "Cut",
+    "pastParticiple": "Cut",
+    "translation": "Cortar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Dance",
+    "simplePast": "Danced",
+    "pastParticiple": "Danced",
+    "translation": "Bailar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Dare",
+    "simplePast": "Dared",
+    "pastParticiple": "Dared",
+    "translation": "Atreverse",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Date",
+    "simplePast": "Dated",
+    "pastParticiple": "Dated",
+    "translation": "Citar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Deal",
+    "simplePast": "Dealt",
+    "pastParticiple": "Dealt",
+    "translation": "Tratar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Define",
+    "simplePast": "Defined",
+    "pastParticiple": "Defined",
+    "translation": "Definir",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Deliver",
+    "simplePast": "Delivered",
+    "pastParticiple": "Delivered",
+    "translation": "Entregar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Die",
+    "simplePast": "Died",
+    "pastParticiple": "Died",
+    "translation": "Morir",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Dig",
+    "simplePast": "Dug",
+    "pastParticiple": "Dug",
+    "translation": "Cavar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Do",
+    "simplePast": "Did",
+    "pastParticiple": "Done",
+    "translation": "Hacer",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Draw",
+    "simplePast": "Drew",
+    "pastParticiple": "Drawn",
+    "translation": "Dibujar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Dream",
+    "simplePast": "Dreamt/Dreamed",
+    "pastParticiple": "Dreamt/Dreamed",
+    "translation": "Soñar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Dress",
+    "simplePast": "Dressed",
+    "pastParticiple": "Dressed",
+    "translation": "Vestir",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Drink",
+    "simplePast": "Drank",
+    "pastParticiple": "Drunk",
+    "translation": "Beber",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Drive",
+    "simplePast": "Drove",
+    "pastParticiple": "Driven",
+    "translation": "Conducir",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Drop",
+    "simplePast": "Dropped",
+    "pastParticiple": "Dropped",
+    "translation": "Botar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Eat",
+    "simplePast": "Ate",
+    "pastParticiple": "Eaten",
+    "translation": "Comer",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "End",
+    "simplePast": "Ended",
+    "pastParticiple": "Ended",
+    "translation": "Terminar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Engage",
+    "simplePast": "Engaged",
+    "pastParticiple": "Engaged",
+    "translation": "Comprometer",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Enjoy",
+    "simplePast": "Enjoyed",
+    "pastParticiple": "Enjoyed",
+    "translation": "Disfrutar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Erase",
+    "simplePast": "Erased",
+    "pastParticiple": "Erased",
+    "translation": "Borrar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Exchange",
+    "simplePast": "Exchanged",
+    "pastParticiple": "Exchanged",
+    "translation": "Intercambiar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Exclaim",
+    "simplePast": "Exclaimed",
+    "pastParticiple": "Exclaimed",
+    "translation": "Exclamar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Expect",
+    "simplePast": "Expected",
+    "pastParticiple": "Expected",
+    "translation": "Esperar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Explain",
+    "simplePast": "Explained",
+    "pastParticiple": "Explained",
+    "translation": "Explicar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Fail",
+    "simplePast": "Failed",
+    "pastParticiple": "Failed",
+    "translation": "Fracasar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Fall",
+    "simplePast": "Fell",
+    "pastParticiple": "Fallen",
+    "translation": "Caer",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Feed",
+    "simplePast": "Fed",
+    "pastParticiple": "Fed",
+    "translation": "Alimentar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Feel",
+    "simplePast": "Felt",
+    "pastParticiple": "Felt",
+    "translation": "Sentir",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Fight",
+    "simplePast": "Fought",
+    "pastParticiple": "Fought",
+    "translation": "Pelear",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Fill",
+    "simplePast": "Filled",
+    "pastParticiple": "Filled",
+    "translation": "Llenar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Find",
+    "simplePast": "Found",
+    "pastParticiple": "Found",
+    "translation": "Encontrar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Finish",
+    "simplePast": "Finished",
+    "pastParticiple": "Finished",
+    "translation": "Terminar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Fish",
+    "simplePast": "Fished",
+    "pastParticiple": "Fished",
+    "translation": "Pescar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Fix",
+    "simplePast": "Fixed",
+    "pastParticiple": "Fixed",
+    "translation": "Arreglar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Flee",
+    "simplePast": "Fled",
+    "pastParticiple": "Fled",
+    "translation": "Huir",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Fly",
+    "simplePast": "Flew",
+    "pastParticiple": "Flown",
+    "translation": "Volar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Follow",
+    "simplePast": "Followed",
+    "pastParticiple": "Followed",
+    "translation": "Seguir",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Forbid",
+    "simplePast": "Forbade",
+    "pastParticiple": "Forbidden",
+    "translation": "Prohibir",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Forget",
+    "simplePast": "Forgot",
+    "pastParticiple": "Forgotten",
+    "translation": "Olvidar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Forgive",
+    "simplePast": "Forgave",
+    "pastParticiple": "Forgiven",
+    "translation": "Perdonar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Freeze",
+    "simplePast": "Froze",
+    "pastParticiple": "Frozen",
+    "translation": "Congelar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Gain",
+    "simplePast": "Gained",
+    "pastParticiple": "Gained",
+    "translation": "Obtener",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Get",
+    "simplePast": "Got",
+    "pastParticiple": "Got/Gotten",
+    "translation": "Obtener",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Give",
+    "simplePast": "Gave",
+    "pastParticiple": "Given",
+    "translation": "Dar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Go",
+    "simplePast": "Went",
+    "pastParticiple": "Gone",
+    "translation": "Ir",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Grind",
+    "simplePast": "Ground",
+    "pastParticiple": "Ground",
+    "translation": "Moler",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Grow",
+    "simplePast": "Grew",
+    "pastParticiple": "Grown",
+    "translation": "Crecer",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Guess",
+    "simplePast": "Guessed",
+    "pastParticiple": "Guessed",
+    "translation": "Suponer",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Hang",
+    "simplePast": "Hung",
+    "pastParticiple": "Hung",
+    "translation": "Colgar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Happen",
+    "simplePast": "Happened",
+    "pastParticiple": "Happened",
+    "translation": "Suceder",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Have",
+    "simplePast": "Had",
+    "pastParticiple": "Had",
+    "translation": "Tener",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Hear",
+    "simplePast": "Heard",
+    "pastParticiple": "Heard",
+    "translation": "Escuchar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Help",
+    "simplePast": "Helped",
+    "pastParticiple": "Helped",
+    "translation": "Ayudar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Hide",
+    "simplePast": "Hid",
+    "pastParticiple": "Hidden",
+    "translation": "Ocultar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Hit",
+    "simplePast": "Hit",
+    "pastParticiple": "Hit",
+    "translation": "Golpear",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Hold",
+    "simplePast": "Held",
+    "pastParticiple": "Held",
+    "translation": "Sostener",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Hunt",
+    "simplePast": "Hunted",
+    "pastParticiple": "Hunted",
+    "translation": "Cazar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Hurry",
+    "simplePast": "Hurried",
+    "pastParticiple": "Hurried",
+    "translation": "Apurar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Hurt",
+    "simplePast": "Hurt",
+    "pastParticiple": "Hurt",
+    "translation": "Herir",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Imagine",
+    "simplePast": "Imagined",
+    "pastParticiple": "Imagined",
+    "translation": "Imaginar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Intend",
+    "simplePast": "Intended",
+    "pastParticiple": "Intended",
+    "translation": "Intentar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Jump",
+    "simplePast": "Jumped",
+    "pastParticiple": "Jumped",
+    "translation": "Saltar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Keep",
+    "simplePast": "Kept",
+    "pastParticiple": "Kept",
+    "translation": "Mantener",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Kill",
+    "simplePast": "Killed",
+    "pastParticiple": "Killed",
+    "translation": "Matar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Kiss",
+    "simplePast": "Kissed",
+    "pastParticiple": "Kissed",
+    "translation": "Besar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Kneel",
+    "simplePast": "Knelt",
+    "pastParticiple": "Knelt",
+    "translation": "Arrodillar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Knit",
+    "simplePast": "Knit",
+    "pastParticiple": "Knit",
+    "translation": "Tejer",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Know",
+    "simplePast": "Knew",
+    "pastParticiple": "Known",
+    "translation": "Saber",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Laugh",
+    "simplePast": "Laughed",
+    "pastParticiple": "Laughed",
+    "translation": "Reír",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Lay",
+    "simplePast": "Laid",
+    "pastParticiple": "Laid",
+    "translation": "Poner",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Lead",
+    "simplePast": "Led",
+    "pastParticiple": "Led",
+    "translation": "Dirigir",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Lean",
+    "simplePast": "Leant",
+    "pastParticiple": "Leant",
+    "translation": "Apoyarse",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Leap",
+    "simplePast": "Leapt",
+    "pastParticiple": "Leapt",
+    "translation": "Saltar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Learn",
+    "simplePast": "Learned",
+    "pastParticiple": "Learned",
+    "translation": "Aprender",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Leave",
+    "simplePast": "Left",
+    "pastParticiple": "Left",
+    "translation": "Irse",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Lend",
+    "simplePast": "Lent",
+    "pastParticiple": "Lent",
+    "translation": "Prestar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Let",
+    "simplePast": "Let",
+    "pastParticiple": "Let",
+    "translation": "Dejar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Light",
+    "simplePast": "Lit",
+    "pastParticiple": "Lit",
+    "translation": "Encender",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Like",
+    "simplePast": "Liked",
+    "pastParticiple": "Liked",
+    "translation": "Gustar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Listen",
+    "simplePast": "Listened",
+    "pastParticiple": "Listened",
+    "translation": "Escuchar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Live",
+    "simplePast": "Lived",
+    "pastParticiple": "Lived",
+    "translation": "Vivir",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Look",
+    "simplePast": "Looked",
+    "pastParticiple": "Looked",
+    "translation": "Mirar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Lose",
+    "simplePast": "Lost",
+    "pastParticiple": "Lost",
+    "translation": "Perder",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Love",
+    "simplePast": "Loved",
+    "pastParticiple": "Loved",
+    "translation": "Amar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Make",
+    "simplePast": "Made",
+    "pastParticiple": "Made",
+    "translation": "Hacer",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Manage",
+    "simplePast": "Managed",
+    "pastParticiple": "Managed",
+    "translation": "Manejar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Marry",
+    "simplePast": "Married",
+    "pastParticiple": "Married",
+    "translation": "Casarse",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Mean",
+    "simplePast": "Meant",
+    "pastParticiple": "Meant",
+    "translation": "Significar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Measure",
+    "simplePast": "Measured",
+    "pastParticiple": "Measured",
+    "translation": "Medir",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Meet",
+    "simplePast": "Met",
+    "pastParticiple": "Met",
+    "translation": "Reunirse",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Miss",
+    "simplePast": "Missed",
+    "pastParticiple": "Missed",
+    "translation": "Extrañar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Mistake",
+    "simplePast": "Mistook",
+    "pastParticiple": "Mistaken",
+    "translation": "Equivocar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Move",
+    "simplePast": "Moved",
+    "pastParticiple": "Moved",
+    "translation": "Mover",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Name",
+    "simplePast": "Named",
+    "pastParticiple": "Named",
+    "translation": "Nombrar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Need",
+    "simplePast": "Needed",
+    "pastParticiple": "Needed",
+    "translation": "Necesitar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Observe",
+    "simplePast": "Observed",
+    "pastParticiple": "Observed",
+    "translation": "Observar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Open",
+    "simplePast": "Opened",
+    "pastParticiple": "Opened",
+    "translation": "Abrir",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Order",
+    "simplePast": "Ordered",
+    "pastParticiple": "Ordered",
+    "translation": "Ordenar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Overcome",
+    "simplePast": "Overcame",
+    "pastParticiple": "Overcome",
+    "translation": "Superar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Park",
+    "simplePast": "Parked",
+    "pastParticiple": "Parked",
+    "translation": "Estacionar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Pass",
+    "simplePast": "Passed",
+    "pastParticiple": "Passed",
+    "translation": "Pasar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Pay",
+    "simplePast": "Paid",
+    "pastParticiple": "Paid",
+    "translation": "Pagar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Perform",
+    "simplePast": "Performed",
+    "pastParticiple": "Performed",
+    "translation": "Ejecutar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Phone",
+    "simplePast": "Phoned",
+    "pastParticiple": "Phoned",
+    "translation": "Llamar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Plan",
+    "simplePast": "Planned",
+    "pastParticiple": "Planned",
+    "translation": "Planear",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Plant",
+    "simplePast": "Planted",
+    "pastParticiple": "Planted",
+    "translation": "Plantar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Play",
+    "simplePast": "Played",
+    "pastParticiple": "Played",
+    "translation": "Jugar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Please",
+    "simplePast": "Pleased",
+    "pastParticiple": "Pleased",
+    "translation": "Complacer",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Point",
+    "simplePast": "Pointed",
+    "pastParticiple": "Pointed",
+    "translation": "Señalar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Practice",
+    "simplePast": "Practiced",
+    "pastParticiple": "Practiced",
+    "translation": "Practicar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Pray",
+    "simplePast": "Prayed",
+    "pastParticiple": "Prayed",
+    "translation": "Rezar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Promise",
+    "simplePast": "Promised",
+    "pastParticiple": "Promised",
+    "translation": "Prometer",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Push",
+    "simplePast": "Pushed",
+    "pastParticiple": "Pushed",
+    "translation": "Empujar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Put",
+    "simplePast": "Put",
+    "pastParticiple": "Put",
+    "translation": "Poner",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Rain",
+    "simplePast": "Rained",
+    "pastParticiple": "Rained",
+    "translation": "Llover",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Reach",
+    "simplePast": "Reached",
+    "pastParticiple": "Reached",
+    "translation": "Alcanzar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Read",
+    "simplePast": "Read",
+    "pastParticiple": "Read",
+    "translation": "Leer",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Realize",
+    "simplePast": "Realized",
+    "pastParticiple": "Realized",
+    "translation": "Darse cuenta",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Receive",
+    "simplePast": "Received",
+    "pastParticiple": "Received",
+    "translation": "Recibir",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Refuse",
+    "simplePast": "Refused",
+    "pastParticiple": "Refused",
+    "translation": "Rehusar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Remember",
+    "simplePast": "Remembered",
+    "pastParticiple": "Remembered",
+    "translation": "Recordar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Rent",
+    "simplePast": "Rented",
+    "pastParticiple": "Rented",
+    "translation": "Rentar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Repeat",
+    "simplePast": "Repeated",
+    "pastParticiple": "Repeated",
+    "translation": "Repetir",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Reserve",
+    "simplePast": "Reserved",
+    "pastParticiple": "Reserved",
+    "translation": "Reservar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Resist",
+    "simplePast": "Resisted",
+    "pastParticiple": "Resisted",
+    "translation": "Resistir",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Rest",
+    "simplePast": "Rested",
+    "pastParticiple": "Rested",
+    "translation": "Descansar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Ride",
+    "simplePast": "Rode",
+    "pastParticiple": "Ridden",
+    "translation": "Montar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Ring",
+    "simplePast": "Rang",
+    "pastParticiple": "Rung",
+    "translation": "Llamar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Rise",
+    "simplePast": "Rose",
+    "pastParticiple": "Risen",
+    "translation": "Ascender",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Run",
+    "simplePast": "Ran",
+    "pastParticiple": "Run",
+    "translation": "Correr",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Save",
+    "simplePast": "Saved",
+    "pastParticiple": "Saved",
+    "translation": "Ahorrar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Say",
+    "simplePast": "Said",
+    "pastParticiple": "Said",
+    "translation": "Decir",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Search",
+    "simplePast": "Searched",
+    "pastParticiple": "Searched",
+    "translation": "Buscar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "See",
+    "simplePast": "Saw",
+    "pastParticiple": "Seen",
+    "translation": "Ver",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Seek",
+    "simplePast": "Sought",
+    "pastParticiple": "Sought",
+    "translation": "Buscar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Sell",
+    "simplePast": "Sold",
+    "pastParticiple": "Sold",
+    "translation": "Vender",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Send",
+    "simplePast": "Sent",
+    "pastParticiple": "Sent",
+    "translation": "Enviar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Set",
+    "simplePast": "Set",
+    "pastParticiple": "Set",
+    "translation": "Poner",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Sew",
+    "simplePast": "Sewed",
+    "pastParticiple": "Sewed/Sewn",
+    "translation": "Coser",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Shake",
+    "simplePast": "Shook",
+    "pastParticiple": "Shaken",
+    "translation": "Sacudir",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Shear",
+    "simplePast": "Shore",
+    "pastParticiple": "Shorn",
+    "translation": "Esquilar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Shine",
+    "simplePast": "Shone",
+    "pastParticiple": "Shone",
+    "translation": "Brillar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Shoot",
+    "simplePast": "Shot",
+    "pastParticiple": "Shot",
+    "translation": "Disparar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Show",
+    "simplePast": "Showed",
+    "pastParticiple": "Shown",
+    "translation": "Mostrar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Shrink",
+    "simplePast": "Shrank",
+    "pastParticiple": "Shrunk",
+    "translation": "Encogerse",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Shut",
+    "simplePast": "Shut",
+    "pastParticiple": "Shut",
+    "translation": "Cerrar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Sign",
+    "simplePast": "Signed",
+    "pastParticiple": "Signed",
+    "translation": "Firmar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Sing",
+    "simplePast": "Sang",
+    "pastParticiple": "Sung",
+    "translation": "Cantar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Sink",
+    "simplePast": "Sank",
+    "pastParticiple": "Sunk",
+    "translation": "Hundir",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Sit",
+    "simplePast": "Sat",
+    "pastParticiple": "Sat",
+    "translation": "Sentarse",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Sleep",
+    "simplePast": "Slept",
+    "pastParticiple": "Slept",
+    "translation": "Dormir",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Slide",
+    "simplePast": "Slid",
+    "pastParticiple": "Slid",
+    "translation": "Resbalar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Smell",
+    "simplePast": "Smelt",
+    "pastParticiple": "Smelt",
+    "translation": "Oler",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Smile",
+    "simplePast": "Smiled",
+    "pastParticiple": "Smiled",
+    "translation": "Sonreír",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Smoke",
+    "simplePast": "Smoked",
+    "pastParticiple": "Smoked",
+    "translation": "Fumar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Snow",
+    "simplePast": "Snowed",
+    "pastParticiple": "Snowed",
+    "translation": "Nevar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Sow",
+    "simplePast": "Sowed",
+    "pastParticiple": "Sowed/Sown",
+    "translation": "Sembrar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Speak",
+    "simplePast": "Spoke",
+    "pastParticiple": "Spoken",
+    "translation": "Hablar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Speed",
+    "simplePast": "Sped",
+    "pastParticiple": "Sped",
+    "translation": "Acelerar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Spell",
+    "simplePast": "Spelt",
+    "pastParticiple": "Spelt",
+    "translation": "Deletrear",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Spend",
+    "simplePast": "Spent",
+    "pastParticiple": "Spent",
+    "translation": "Gastar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Spill",
+    "simplePast": "Spilt/Spilled",
+    "pastParticiple": "Spilt/Spilled",
+    "translation": "Derramar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Spin",
+    "simplePast": "Spun",
+    "pastParticiple": "Spun",
+    "translation": "Hilar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Spit",
+    "simplePast": "Spat",
+    "pastParticiple": "Spat",
+    "translation": "Escupir",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Split",
+    "simplePast": "Split",
+    "pastParticiple": "Split",
+    "translation": "Rajar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Spoil",
+    "simplePast": "Spoilt/Spoiled",
+    "pastParticiple": "Spoilt/Spoiled",
+    "translation": "Estropear",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Spread",
+    "simplePast": "Spread",
+    "pastParticiple": "Spread",
+    "translation": "Extender",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Stand",
+    "simplePast": "Stood",
+    "pastParticiple": "Stood",
+    "translation": "Estar de pie",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Start",
+    "simplePast": "Started",
+    "pastParticiple": "Started",
+    "translation": "Empezar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Stay",
+    "simplePast": "Stayed",
+    "pastParticiple": "Stayed",
+    "translation": "Quedarse",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Steal",
+    "simplePast": "Stole",
+    "pastParticiple": "Stolen",
+    "translation": "Robar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Step",
+    "simplePast": "Stepped",
+    "pastParticiple": "Stepped",
+    "translation": "Avanzar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Stick",
+    "simplePast": "Stuck",
+    "pastParticiple": "Stuck",
+    "translation": "Pegar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Sting",
+    "simplePast": "Stung",
+    "pastParticiple": "Stung",
+    "translation": "Picar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Stink",
+    "simplePast": "Stank/Stunk",
+    "pastParticiple": "Stunk",
+    "translation": "Apestar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Stop",
+    "simplePast": "Stopped",
+    "pastParticiple": "Stopped",
+    "translation": "Detener",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Stride",
+    "simplePast": "Strode",
+    "pastParticiple": "Stridden",
+    "translation": "Dar zancadas",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Strike",
+    "simplePast": "Struck",
+    "pastParticiple": "Struck",
+    "translation": "Golpear",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Study",
+    "simplePast": "Studied",
+    "pastParticiple": "Studied",
+    "translation": "Estudiar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Suffer",
+    "simplePast": "Suffered",
+    "pastParticiple": "Suffered",
+    "translation": "Sufrir",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Swear",
+    "simplePast": "Swore",
+    "pastParticiple": "Sworn",
+    "translation": "Jurar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Sweat",
+    "simplePast": "Sweat",
+    "pastParticiple": "Sweat",
+    "translation": "Sudar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Sweep",
+    "simplePast": "Swept",
+    "pastParticiple": "Swept",
+    "translation": "Barrer",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Swell",
+    "simplePast": "Swelled",
+    "pastParticiple": "Swollen",
+    "translation": "Hinchar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Swim",
+    "simplePast": "Swam",
+    "pastParticiple": "Swum",
+    "translation": "Nadar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Swing",
+    "simplePast": "Swung",
+    "pastParticiple": "Swung",
+    "translation": "Balancear",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Switch",
+    "simplePast": "Switched",
+    "pastParticiple": "Switched",
+    "translation": "Cambiar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Take",
+    "simplePast": "Took",
+    "pastParticiple": "Taken",
+    "translation": "Tomar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Talk",
+    "simplePast": "Talked",
+    "pastParticiple": "Talked",
+    "translation": "Hablar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Teach",
+    "simplePast": "Taught",
+    "pastParticiple": "Taught",
+    "translation": "Enseñar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Tell",
+    "simplePast": "Told",
+    "pastParticiple": "Told",
+    "translation": "Decir",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Thank",
+    "simplePast": "Thanked",
+    "pastParticiple": "Thanked",
+    "translation": "Agradecer",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Think",
+    "simplePast": "Thought",
+    "pastParticiple": "Thought",
+    "translation": "Pensar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Throw",
+    "simplePast": "Threw",
+    "pastParticiple": "Thrown",
+    "translation": "Arrojar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Touch",
+    "simplePast": "Touched",
+    "pastParticiple": "Touched",
+    "translation": "Tocar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Train",
+    "simplePast": "Trained",
+    "pastParticiple": "Trained",
+    "translation": "Entrenar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Travel",
+    "simplePast": "Travelled",
+    "pastParticiple": "Travelled",
+    "translation": "Viajar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Try",
+    "simplePast": "Tried",
+    "pastParticiple": "Tried",
+    "translation": "Intentar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Turn",
+    "simplePast": "Turned",
+    "pastParticiple": "Turned",
+    "translation": "Voltear",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Understand",
+    "simplePast": "Understood",
+    "pastParticiple": "Understood",
+    "translation": "Entender",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Undertake",
+    "simplePast": "Undertook",
+    "pastParticiple": "Undertaken",
+    "translation": "Emprender",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Use",
+    "simplePast": "Used",
+    "pastParticiple": "Used",
+    "translation": "Usar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Visit",
+    "simplePast": "Visited",
+    "pastParticiple": "Visited",
+    "translation": "Visitar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Wait",
+    "simplePast": "Waited",
+    "pastParticiple": "Waited",
+    "translation": "Esperar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Wake",
+    "simplePast": "Woke",
+    "pastParticiple": "Woken",
+    "translation": "Despertar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Walk",
+    "simplePast": "Walked",
+    "pastParticiple": "Walked",
+    "translation": "Caminar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Want",
+    "simplePast": "Wanted",
+    "pastParticiple": "Wanted",
+    "translation": "Querer",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Wash",
+    "simplePast": "Washed",
+    "pastParticiple": "Washed",
+    "translation": "Lavar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Watch",
+    "simplePast": "Watched",
+    "pastParticiple": "Watched",
+    "translation": "Ver",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Wear",
+    "simplePast": "Wore",
+    "pastParticiple": "Worn",
+    "translation": "Usar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Weave",
+    "simplePast": "Wove",
+    "pastParticiple": "Woven",
+    "translation": "Tejer",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Weep",
+    "simplePast": "Wept",
+    "pastParticiple": "Wept",
+    "translation": "Llorar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Wet",
+    "simplePast": "Wet",
+    "pastParticiple": "Wet",
+    "translation": "Mojar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Win",
+    "simplePast": "Won",
+    "pastParticiple": "Won",
+    "translation": "Ganar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Wind",
+    "simplePast": "Wound",
+    "pastParticiple": "Wound",
+    "translation": "Enrollar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Wish",
+    "simplePast": "Wished",
+    "pastParticiple": "Wished",
+    "translation": "Desear",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Withdraw",
+    "simplePast": "Withdrew",
+    "pastParticiple": "Withdrawn",
+    "translation": "Retirar",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Work",
+    "simplePast": "Worked",
+    "pastParticiple": "Worked",
+    "translation": "Trabajar",
+    "type": "regular"
+  },
+  {
+    "infinitive": "Wring",
+    "simplePast": "Wrung",
+    "pastParticiple": "Wrung",
+    "translation": "Torcer",
+    "type": "irregular"
+  },
+  {
+    "infinitive": "Write",
+    "simplePast": "Wrote",
+    "pastParticiple": "Written",
+    "translation": "Escribir",
+    "type": "irregular"
+  }
+]
