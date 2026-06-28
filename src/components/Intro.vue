@@ -4,6 +4,7 @@ import HandClickIcon from "./icons/HandClickIcon.vue";
 import TranslationIcon from "./icons/TranslationIcon.vue";
 import SimplePastIcon from "./icons/SimplePastIcon.vue";
 import ParticipleIcon from "./icons/ParticipleIcon.vue";
+import ColorDot from "./ColorDot.vue";
 </script>
 
 <template>
@@ -63,6 +64,34 @@ import ParticipleIcon from "./icons/ParticipleIcon.vue";
         <span>
           <strong>Pasado participio</strong> — se usa en los tiempos perfectos
           (ej. <em>worked</em>, <em>gone</em>).
+        </span>
+      </li>
+    </ul>
+
+    <h3 class="intro__subtitle">¿Qué representan los colores?</h3>
+    <ul class="intro__legend">
+      <li>
+        <span class="intro__legend-icon">
+          <ColorDot color="var(--color-spanish)" />
+        </span>
+        <span>Representa las palabras en — <strong>español</strong>.</span>
+      </li>
+      <li>
+        <span class="intro__legend-icon">
+          <ColorDot color="var(--color-regular)" />
+        </span>
+        <span>
+          Representa los <strong>verbos regulares</strong> (ej. <em>worked</em>,
+          <em>played</em>).
+        </span>
+      </li>
+      <li>
+        <span class="intro__legend-icon">
+          <ColorDot color="var(--color-irregular)" />
+        </span>
+        <span>
+          Representa los <strong>verbos irregulares</strong> (ej. <em>went</em>,
+          <em>gone</em>).
         </span>
       </li>
     </ul>
