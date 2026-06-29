@@ -5,6 +5,7 @@ import { VitePWA } from "vite-plugin-pwa";
 // Relative base so the build works on static hosts (GitHub Pages, Netlify, Vercel).
 export default defineConfig({
   base: "./",
+  server: { host: true },
   plugins: [
     vue(),
     VitePWA({

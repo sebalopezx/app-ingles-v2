@@ -238,6 +238,13 @@
   font-size: 1.2rem;
 }
 
+.intro__icon--numbers {
+  color: var(--color-tooltip);
+  background: rgba(255, 235, 0, 0.12);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+}
+
 .intro__icon--reveal {
   color: var(--color-accent);
   background: var(--fill-accent);

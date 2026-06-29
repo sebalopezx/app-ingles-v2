@@ -39,6 +39,25 @@ import ColorDot from "./ColorDot.vue";
       </li>
     </ul>
 
+    <h3 class="intro__subtitle">¿Cómo funciona cada sección?</h3>
+    <ul class="intro__steps">
+      <li>
+        <span class="intro__icon intro__icon--numbers">123</span>
+        <span>
+          <strong>Números</strong> — escribe el número en inglés y verifica tu
+          respuesta. Tus aciertos y errores quedan guardados.
+        </span>
+      </li>
+      <li>
+        <span class="intro__icon intro__icon--reveal"><HandClickIcon /></span>
+        <span>
+          <strong>Días y meses</strong> — puedes arrastrar cada palabra a su
+          posición, o hacer clic en una para seleccionarla y luego clic en el
+          recuadro donde creas que va.
+        </span>
+      </li>
+    </ul>
+
     <h3 class="intro__subtitle">¿Qué muestra cada icono?</h3>
     <ul class="intro__legend">
       <li>

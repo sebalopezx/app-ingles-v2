@@ -908,6 +908,11 @@
   align-self: center;
 }
 
+/* Dim unselected chips when one is selected */
+.match__pool--selecting .match__chip:not(.match__chip--selected) {
+  opacity: 0.35;
+}
+
 .match__chip {
   padding: 6px 14px;
   border-radius: var(--radius-pill);
@@ -919,7 +924,8 @@
   font-weight: 600;
   cursor: grab;
   user-select: none;
-  transition: box-shadow var(--dur), transform var(--dur);
+  transition: box-shadow var(--dur), transform var(--dur), opacity var(--dur),
+    border-color var(--dur), color var(--dur), background var(--dur);
 }
 
 .match__chip:hover {
@@ -931,20 +937,49 @@
   cursor: grabbing;
 }
 
+.match__chip--selected {
+  background: rgba(255, 235, 0, 0.15);
+  border-color: var(--color-tooltip);
+  color: var(--color-tooltip);
+  box-shadow: 0 0 10px rgba(255, 235, 0, 0.4);
+  transform: translateY(-2px);
+}
+
+.match__title-group {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.match__title-icon {
+  color: var(--color-text-dim);
+  font-size: 1rem;
+  display: flex;
+}
+
 .match__targets {
   list-style: none;
   display: grid;
   gap: var(--space-2);
 }
 
+@media (min-width: 700px) {
+  .match__targets--two-col {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(var(--match-rows), auto);
+  }
+}
+
 .match__row {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: var(--space-3);
 }
 
 .match__slot {
-  flex: none;
+  justify-self: end;
   width: 150px;
   height: 38px;
   display: flex;
@@ -954,6 +989,15 @@
   border-radius: var(--radius-sm);
   background: var(--color-surface-2);
   transition: border-color var(--dur), box-shadow var(--dur), background var(--dur);
+}
+
+.match__slot.can-drop {
+  cursor: pointer;
+}
+
+.match__slot.can-drop:hover {
+  border-color: var(--color-tooltip);
+  background: rgba(255, 235, 0, 0.08);
 }
 
 .match__slot.is-over {
@@ -990,6 +1034,7 @@
 }
 
 .match__badge {
+  justify-self: start;
   padding: 6px 14px;
   border-radius: var(--radius-pill);
   background: var(--fill-spanish);

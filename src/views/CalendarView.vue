@@ -32,7 +32,7 @@ const MONTHS = [
 <template>
   <div class="stack">
     <NumberGame />
-    <MatchSection title="Días de la semana" :items="DAYS" storage-key="app-ingles-v2:match-days" />
-    <MatchSection title="Meses del año" :items="MONTHS" storage-key="app-ingles-v2:match-months" />
+    <MatchSection title="Días de la semana" :items="DAYS" storage-key="app-ingles-v2:match-days" :columns="2" />
+    <MatchSection title="Meses del año" :items="MONTHS" storage-key="app-ingles-v2:match-months" :columns="2" />
   </div>
 </template>
