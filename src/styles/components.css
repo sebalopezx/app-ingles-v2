@@ -415,6 +415,10 @@
   gap: var(--space-3);
 }
 
+.grid--revealing .card__back {
+  transition-delay: min(calc(var(--i, 0) * 8ms), 240ms);
+}
+
 .grid-empty {
   text-align: center;
   color: var(--color-text-muted);
@@ -484,16 +488,21 @@
 }
 
 .card__back {
-  max-height: 0;
+  display: grid;
+  grid-template-rows: 0fr;
   opacity: 0;
   margin-top: 0;
-  transition: max-height var(--dur) var(--ease), opacity var(--dur),
+  transition: grid-template-rows var(--dur) var(--ease), opacity var(--dur),
     margin-top var(--dur);
+}
+
+.card__back-inner {
+  overflow: hidden;
 }
 
 /* Reveal on click only (no hover reveal). */
 .card.is-revealed .card__back {
-  max-height: 160px;
+  grid-template-rows: 1fr;
   opacity: 1;
   margin-top: var(--space-3);
 }

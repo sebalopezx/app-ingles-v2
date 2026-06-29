@@ -22,10 +22,11 @@ function isLearned(verb) {
     Ningún verbo coincide con tu búsqueda. Prueba otra palabra.
   </p>
 
-  <div v-else class="grid">
+  <div v-else class="grid" :class="{ 'grid--revealing': revealAll }">
     <VerbCard
-      v-for="verb in verbs"
+      v-for="(verb, index) in verbs"
       :key="getVerbId(verb)"
+      :style="{ '--i': index }"
       :verb="verb"
       :is-learned="isLearned(verb)"
       :reveal-all="revealAll"

@@ -19,7 +19,7 @@ import ColorDot from "./ColorDot.vue";
         <span class="intro__icon intro__icon--reveal"><HandClickIcon /></span>
         <span>
           <strong>Haz clic en una tarjeta</strong> — donde veas este icono,
-          puedes hacer clic en la tarjeta (en el móvil o el PC) para mostrar la
+          puedes hacer clic en la tarjeta para mostrar la
           traducción y los tiempos verbales.
         </span>
       </li>

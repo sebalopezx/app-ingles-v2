@@ -67,18 +67,20 @@ function onCheck() {
     <h3 class="card__word">{{ verb.infinitive }}</h3>
 
     <div class="card__back">
-      <p class="card__row card__row--translation">
-        <TranslationIcon class="card__row-icon" />
-        <span>{{ verb.translation }}</span>
-      </p>
-      <p class="card__row card__row--past">
-        <SimplePastIcon class="card__row-icon" />
-        <span>{{ verb.simplePast }}</span>
-      </p>
-      <p class="card__row card__row--past">
-        <ParticipleIcon class="card__row-icon" />
-        <span>{{ verb.pastParticiple }}</span>
-      </p>
+      <div class="card__back-inner">
+        <p class="card__row card__row--translation">
+          <TranslationIcon class="card__row-icon" />
+          <span>{{ verb.translation }}</span>
+        </p>
+        <p class="card__row card__row--past">
+          <SimplePastIcon class="card__row-icon" />
+          <span>{{ verb.simplePast }}</span>
+        </p>
+        <p class="card__row card__row--past">
+          <ParticipleIcon class="card__row-icon" />
+          <span>{{ verb.pastParticiple }}</span>
+        </p>
+      </div>
     </div>
 
     <span class="card__hint" aria-hidden="true">
