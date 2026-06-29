@@ -9,9 +9,26 @@
 
 html {
   -webkit-text-size-adjust: 100%;
-  /* Always reserve space for the scrollbar so the layout never shifts
-     left/right when navigating between short and tall pages. */
   scrollbar-gutter: stable;
+  /* Firefox */
+  scrollbar-color: var(--color-accent) var(--color-surface-2);
+  scrollbar-width: thin;
+}
+
+/* Chrome / Edge / Safari */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-surface-2);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-irregular);
+  border-radius: 99px;
+}
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:active {
+  background: var(--color-accent);
 }
 
 body {
