@@ -4,6 +4,11 @@
   This is the React-friendly equivalent of a single source of truth for colors.
 */
 :root {
+  /* Links */
+  --color-link: #2ee6d6;
+  --color-link-hover: #ffeb00;
+  --color-link-hover-bright: #e2b820;
+
   /* Surfaces (dark background) */
   --color-bg: #0a0e17;
   --color-bg-soft: #0f1422;

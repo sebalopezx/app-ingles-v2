@@ -122,8 +122,8 @@
 }
 
 .nav__link:hover {
-  color: var(--color-text);
-  border-color: var(--color-border-strong);
+  color: var(--color-link-hover-bright);
+  border-color: var(--color-link-hover);
 }
 
 .nav__link.router-link-exact-active {
@@ -192,6 +192,12 @@
 }
 
 /* ---------- Intro ---------- */
+.intro-page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
 .intro {
   padding: var(--space-5);
   background: var(--color-surface);
@@ -301,6 +307,10 @@
   color: var(--color-text);
   background: var(--color-surface-2);
   border: 1px solid var(--color-border);
+}
+
+.intro--version {
+  color: var(--color-text-muted);
 }
 
 /* ---------- Footer ---------- */
