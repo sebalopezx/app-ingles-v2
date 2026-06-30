@@ -2,6 +2,8 @@
 
 ![Static Badge](https://img.shields.io/badge/Creador-Sebasti%C3%A1n_L%C3%B3pez-aqua) ![Static Badge](https://img.shields.io/badge/Versi%C3%B3n-2.0-aqua)
 
+<img src="./public/logo.svg" width="60" height="60" alt="SpanGlish logo" />
+
 `<link version 1>` : <https://sebalopezx.github.io/app-ingles/>
 
 `<link version 2>` : <https://sebalopezx.github.io/app-ingles-v2/>
