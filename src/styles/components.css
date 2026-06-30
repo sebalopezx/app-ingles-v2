@@ -592,8 +592,20 @@
 }
 
 .card.is-learned {
-  border-color: var(--color-success);
-  background: linear-gradient(180deg, var(--fill-success), var(--color-surface));
+  background: linear-gradient(
+    180deg,
+    var(--fill-success) 100%,
+    var(--color-surface) 100%
+  );
+}
+
+
+.card--regular.is-learned {
+  border-color: var(--color-regular);
+}
+
+.card--irregular.is-learned {
+  border-color: var(--color-irregular);
 }
 
 .card.is-learned .card__check {
@@ -603,8 +615,16 @@
   box-shadow: var(--glow-success);
 }
 
-.card.is-learned .card__type {
-  color: var(--color-success);
+.card--regular.is-learned:hover,
+.card--regular.is-learned.is-revealed {
+  border-color: var(--color-regular);
+  box-shadow: var(--glow-regular), inset 0 0 0 1px rgba(70, 232, 160, 0.26);
+}
+
+.card--irregular.is-learned:hover,
+.card--irregular.is-learned.is-revealed {
+  border-color: var(--color-irregular);
+  box-shadow: var(--glow-irregular), inset 0 0 0 1px rgba(70, 232, 160, 0.26);
 }
 
 /* ---------- Number game (Calendar) ---------- */
