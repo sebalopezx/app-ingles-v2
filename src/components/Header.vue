@@ -9,6 +9,7 @@ import { ref } from "vue";
 import Clock from "./Clock.vue";
 import AppLogo from "./icons/AppLogo.vue";
 
+const assetBase = import.meta.env.BASE_URL;
 const menuOpen = ref(false);
 
 function toggleMenu() {
@@ -22,6 +23,19 @@ function closeMenu() {
 
 <template>
   <header class="header">
+    <img
+      class="header__flag header__flag--usa"
+      :src="`${assetBase}flags/estados-unidos.png`"
+      alt=""
+      aria-hidden="true"
+    />
+    <img
+      class="header__flag header__flag--chile"
+      :src="`${assetBase}flags/chile.png`"
+      alt=""
+      aria-hidden="true"
+    />
+
     <div class="header__brand">
       <AppLogo class="header__logo" />
       <h1 class="header__title">
