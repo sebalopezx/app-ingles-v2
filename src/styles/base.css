@@ -51,6 +51,32 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.app-shell {
+  position: relative;
+  min-height: 100vh;
+  isolation: isolate;
+  overflow-x: clip;
+}
+
+.app-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+  filter: brightness(0.4) saturate(1.5);
+  pointer-events: none;
+}
+
+.app-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 14, 23, 0.72);
+}
+
 button {
   font: inherit;
   color: inherit;
@@ -77,6 +103,8 @@ h3 {
 
 /* App shell layout */
 .app {
+  position: relative;
+  z-index: 1;
   width: 100%;
   max-width: var(--max-width);
   margin: 0 auto;
@@ -105,5 +133,12 @@ h3 {
 }
 .link:hover {
   color: var(--color-link-hover);
+}
+
+@media (max-width: 560px) {
+  .app-bg {
+    background-size: 100% 100%;
+    background-position: center;
+  }
 }
 
